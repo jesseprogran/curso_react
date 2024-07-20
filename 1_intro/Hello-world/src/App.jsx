@@ -8,8 +8,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello world React</h1>
-      <h2>Emmet funcionou</h2>
+      <h1>Desafio React</h1>
+      <h2>Colocando a mente pra Funcionar</h2>
       <p className="paragrafo">
         Fazendo a Resolução do Primeiro desafio do curso, que são três coisa que é preciso
         fazer, primeira tenho que adcionar um elemento(html) no meu app.js, segundo tenho 

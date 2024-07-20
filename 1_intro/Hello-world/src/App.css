@@ -18,9 +18,18 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.App {
+  background-color: rgb(29, 168, 122);
+  padding: 5px 0px 0px;
+  border-radius: 20px;
+}
+
 .paragrafo {
   font-size: 30px;
-  color: rgb(23, 119, 111);
+  color: rgb(245, 245, 245);
+  background-color: rgb(84, 84, 92);
+  padding: 10px;
+  border-radius: 25px;
 }
 
 @keyframes logo-spin {
