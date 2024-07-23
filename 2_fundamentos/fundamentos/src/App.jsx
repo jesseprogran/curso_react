@@ -1,8 +1,11 @@
 // components
 import FirstComponent from "./components/FiirstComponents";
 import TemplateExpressions from "./components/TemplateExpressions";
+import MyComponents from "./components/MyComponent";
+import Events from "./components/Events";
 
 import { useState } from "react";
+
 // styles / css
 import "./App.css";
 
@@ -14,6 +17,8 @@ function App() {
       <h1>Fundamentos React</h1>
       <FirstComponent />
       <TemplateExpressions />
+      <MyComponents />
+      <Events />
     </div>
   );
 }
