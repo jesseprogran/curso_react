@@ -1,11 +1,13 @@
 const Challenge = () => {
-  const a = 100;
-  const b = 10;
+  const num = 25;
+  const num2 = 10;
   return (
     <div>
-      <p>A: {a}</p>
-      <p>B: {b}</p>
-      <button onClick={() => alert(a + b)}>Realizar o Calculo</button>
+      <p>A: {num}</p>
+      <p>B: {num2}</p>
+      <button onClick={() => console.log(num + num2)}>
+        Realizar o Calculo
+      </button>
     </div>
   );
 };
