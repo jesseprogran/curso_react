@@ -3,6 +3,7 @@ import FirstComponent from "./components/FiirstComponents";
 import TemplateExpressions from "./components/TemplateExpressions";
 import MyComponents from "./components/MyComponent";
 import Events from "./components/Events";
+import Challenge from "./components/Challenge";
 
 import { useState } from "react";
 
@@ -19,6 +20,7 @@ function App() {
       <TemplateExpressions />
       <MyComponents />
       <Events />
+      <Challenge />
     </div>
   );
 }
