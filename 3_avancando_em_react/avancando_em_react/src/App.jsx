@@ -1,5 +1,8 @@
+import ManageData from "./components/ManageData";
+
 import "./App.css";
 import Ima02 from "./assets/ima02.jpg";
+
 
 function App() {
   return (
@@ -13,6 +16,7 @@ function App() {
       <div>
        <img src={Ima02} alt="foto de gelo" />
       </div>
+      <ManageData />
     </div>
   );
 }
