@@ -4,15 +4,22 @@ import ManageData from "./components/ManageData";
 import ListRender from "./components/ListRender";
 import Conditional from "./components/Conditional";
 import ShowUserName from "./components/ShowUserName";
+import CarDetails from "./components/CarDetails";
+
 
 import "./App.css";
-import Ima02 from "./assets/ima02.jpg";
+import hilux from "./assets/hilux.jpg";
+
 
 
 
 function App() {
 
-  const userName = useState("Dalila Pereira")
+  let color = "Azul"
+  let km = 120.00
+  const brand = "Hilux"
+
+  const userName = useState("Jessé Silva")
   return (
     <div className="App">
       <h1>Avançando no React</h1>
@@ -22,12 +29,15 @@ function App() {
       </div>
       {/* imagem em asset*/}
       <div>
-        <img src={Ima02} alt="foto de gelo" />
+        <img src={hilux} alt="foto de gelo" />
       </div>
-      <ManageData />
+      {/* <ManageData />
       <ListRender />
-      <Conditional />
+      <Conditional /> */}
+      {/* Props */}
       <ShowUserName name={userName} />
+      {/* Destructuring */}
+      <CarDetails brand={brand} km={km} color={color} />
     </div>
   );
 }
