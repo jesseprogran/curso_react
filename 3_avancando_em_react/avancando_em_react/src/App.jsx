@@ -1,11 +1,18 @@
+
+import { useState } from "react";
 import ManageData from "./components/ManageData";
 import ListRender from "./components/ListRender";
 import Conditional from "./components/Conditional";
+import ShowUserName from "./components/ShowUserName";
 
 import "./App.css";
 import Ima02 from "./assets/ima02.jpg";
 
+
+
 function App() {
+
+  const userName = useState("Dalila Pereira")
   return (
     <div className="App">
       <h1>Avançando no React</h1>
@@ -20,6 +27,7 @@ function App() {
       <ManageData />
       <ListRender />
       <Conditional />
+      <ShowUserName name={userName} />
     </div>
   );
 }
